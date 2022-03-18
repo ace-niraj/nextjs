@@ -8,12 +8,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.2.4",
+    "framer-motion": "^5.5.5",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-animated-cursor": "^2.2.0",
+    "react-dom": "17.0.2",
+    "react-tsparticles": "^1.37.5",
+    "tailwindcss": "^3.0.6",
+    "tsparticles": "^1.37.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5"
   }
 }

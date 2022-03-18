@@ -1,0 +1,41 @@
+<Paper
+          elevation={5}
+          className='flex justify-center items-center  w-[310px] h-[310px]'
+          sx={{
+            position: 'relative',
+            boxShadow: '-3px -3px 7px #ffffff73, 3px 3px 15px #00000080',
+            overflow: 'hidden',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              width: '150px',
+              height: '140%',
+              background: 'linear-gradient(#00ccff,#d400d4)',
+              animation: 'animate 4s linear infinite',
+            },
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              inset: '4px',
+            },
+            '@keyframes animate': {
+              '0%': {
+                transform: 'rotate(0deg)',
+              },
+              '100%': {
+                transform: 'rotate(360deg)',
+              },
+            },
+          }}
+        >
+          <Image
+            style={{
+              objectFit: 'contain',
+            }}
+            // className='rounded-full'
+            width={300}
+            height={300}
+            alt='my picture'
+            src='/images/my_image.jpg'
+          />
+        </Paper>
